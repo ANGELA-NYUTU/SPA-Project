@@ -9,6 +9,7 @@ function CakeForm({
       onSubmit={handleSubmit}
       className="p-6 flex flex-col gap-4 max-w-md mx-auto"
     >
+      <h2 className="text-2xl font-bold text-[#0033a0]">Add new cake flavor</h2>
       <input
         type="text"
         name="name"
