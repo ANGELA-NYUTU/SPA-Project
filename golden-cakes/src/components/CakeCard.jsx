@@ -12,7 +12,7 @@ function CakeCard({ cake, handleDelete, handleEdit }) {
       <p>{cake.flavor}</p>
 
       <p className="text-[#d4af37] font-bold">
-        ${cake.price}
+        KES {cake.price}
       </p>
 
       <button
